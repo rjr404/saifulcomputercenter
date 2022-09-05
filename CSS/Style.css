@@ -1,0 +1,66 @@
+*{
+    margin:0%;
+    padding:0%;
+    border:0%;
+    outline:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 112, 112);
+}
+#admin-box{
+    background-color: rgb(240, 233, 233);
+    color: rgb(104, 7, 7);
+    width: 50%;
+    text-align: center;
+    margin: 10% auto 0%;
+    padding: 20px; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(5, 0, 0); 
+}
+#admin-box h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    margin: 50px 0px;
+}
+label,input{
+    display: block;
+}
+label{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 50%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(83, 5, 5);
+    border: 1px solid rgb(241, 110, 110);
+}
+input::placeholder{
+    color: rgb(83, 5, 5);;
+}
+#btn{
+    font-size: 17px;
+    margin-top: 10px;
+    transition: ease-in-out 0.5s;
+}
+#btn:hover{
+    background-color: rgb(39, 5, 5);
+    color: brown;
+}
+.P-text{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.P-text a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
